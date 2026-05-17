@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Lato:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-cream: #f5f4ee;
+  --text-dark: #2c3e35;
+  --olive: #9a9e86;
+  --olive-hover: #888c74;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: var(--bg-cream);
+  color: var(--text-dark);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar for review cards */
+.reviews-scroll::-webkit-scrollbar {
+  height: 4px;
+}
+.reviews-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.reviews-scroll::-webkit-scrollbar-thumb {
+  background: var(--olive);
+  border-radius: 2px;
+}
