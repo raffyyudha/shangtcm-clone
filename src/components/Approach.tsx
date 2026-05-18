@@ -4,7 +4,7 @@ export default function Approach() {
   return (
     <section className="flex flex-col-reverse md:flex-row">
       {/* Left side with text */}
-      <div className="w-full md:w-1/2 bg-[#9a9e86] py-12 md:py-16 px-8 md:px-16 flex flex-col justify-center">
+      <div className="w-full md:w-1/2 bg-[#7cb3e0] py-12 md:py-16 px-8 md:px-16 flex flex-col justify-center">
         <h2 className="text-3xl md:text-5xl text-white font-normal mb-6 md:mb-8">
           Our Approach
         </h2>

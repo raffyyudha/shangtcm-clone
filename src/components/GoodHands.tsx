@@ -15,17 +15,17 @@ export default function GoodHands() {
   ];
 
   return (
-    <section className="py-16 md:py-20 px-6 bg-[#f5f4ee]">
+    <section className="py-16 md:py-20 px-6 bg-[#f0f7fc]">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl md:text-5xl text-[#9a9e86] text-center font-normal mb-12 md:mb-16 leading-tight">
+        <h2 className="text-3xl md:text-5xl text-[#7cb3e0] text-center font-normal mb-12 md:mb-16 leading-tight">
           You Are In<br />Good Hands
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
           {features.map((feature, index) => (
             <div key={index} className="text-center">
-              <h3 className="text-lg md:text-xl text-[#9a9e86] font-semibold mb-3 md:mb-4">{feature.title}</h3>
-              <p className="text-[#2c3e35] text-sm leading-relaxed">{feature.description}</p>
+              <h3 className="text-lg md:text-xl text-[#7cb3e0] font-semibold mb-3 md:mb-4">{feature.title}</h3>
+              <p className="text-[#1e293b] text-sm leading-relaxed">{feature.description}</p>
             </div>
           ))}
         </div>

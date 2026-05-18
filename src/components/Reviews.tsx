@@ -144,7 +144,7 @@ export default function Reviews() {
   };
 
   return (
-    <section className="py-16 px-4 md:px-6 bg-[#f5f4ee]/30">
+    <section className="py-16 px-4 md:px-6 bg-[#f0f7fc]/30">
       <div className="max-w-xl mx-auto space-y-16">
         {locations.map((location, locIndex) => {
           const currentSlide = slideIndices[locIndex];

@@ -11,18 +11,18 @@ export default function About() {
 
         {/* Content - replaced with xxxxxx */}
         <div className="w-full md:w-1/2">
-          <h2 className="text-3xl md:text-5xl text-[#9a9e86] font-normal mb-6 md:mb-8 leading-tight">
+          <h2 className="text-3xl md:text-5xl text-[#7cb3e0] font-normal mb-6 md:mb-8 leading-tight">
             xxxxxx
           </h2>
-          <p className="text-[#2c3e35] text-sm leading-relaxed mb-4">
+          <p className="text-[#1e293b] text-sm leading-relaxed mb-4">
             xxxxxx
           </p>
-          <p className="text-[#2c3e35] text-sm leading-relaxed mb-6 md:mb-8">
+          <p className="text-[#1e293b] text-sm leading-relaxed mb-6 md:mb-8">
             xxxxxx
           </p>
           <Link
             href="/about"
-            className="inline-flex items-center text-[#2c3e35] text-xs uppercase tracking-widest hover:text-[#9a9e86] transition-colors font-semibold"
+            className="inline-flex items-center text-[#1e293b] text-xs uppercase tracking-widest hover:text-[#7cb3e0] transition-colors font-semibold"
           >
             xxxxxx
             <svg className="ml-2 w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">

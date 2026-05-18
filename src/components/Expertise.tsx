@@ -43,7 +43,7 @@ export default function Expertise() {
   return (
     <section className="py-16 md:py-20 px-6 bg-white overflow-hidden">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl md:text-5xl text-[#9a9e86] text-center font-normal mb-12 md:mb-16 animate-fade-in-up">
+        <h2 className="text-3xl md:text-5xl text-[#7cb3e0] text-center font-normal mb-12 md:mb-16 animate-fade-in-up">
           Our Areas of Expertise
         </h2>
 
@@ -70,13 +70,14 @@ export default function Expertise() {
                   src={area.icon}
                   alt={area.title}
                   className="w-full h-full object-contain rounded-md transition-transform duration-500 group-hover:scale-105"
+                  style={{ filter: "hue-rotate(175deg) saturate(1.5) brightness(1.1)" }}
                 />
               </div>
-              <h3 className="text-lg md:text-xl text-[#9a9e86] font-semibold mb-3 md:mb-4 group-hover:text-[#888c74] transition-colors">{area.title}</h3>
-              <p className="text-[#2c3e35] text-sm leading-relaxed mb-4">{area.description}</p>
+              <h3 className="text-lg md:text-xl text-[#7cb3e0] font-semibold mb-3 md:mb-4 group-hover:text-[#63a0d4] transition-colors">{area.title}</h3>
+              <p className="text-[#1e293b] text-sm leading-relaxed mb-4">{area.description}</p>
               <Link
                 href="#"
-                className="inline-flex items-center text-[#2c3e35] text-xs uppercase tracking-widest hover:text-[#9a9e86] transition-colors font-semibold group"
+                className="inline-flex items-center text-[#1e293b] text-xs uppercase tracking-widest hover:text-[#7cb3e0] transition-colors font-semibold group"
               >
                 <span>Read more</span>
                 <svg className="ml-2 w-4 h-4 transform group-hover:translate-x-1 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">

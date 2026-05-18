@@ -1,6 +1,6 @@
 export default function TrustBadges() {
   return (
-    <section className="py-8 md:py-14 px-4 bg-[#eceade] overflow-hidden">
+    <section className="py-8 md:py-14 px-4 bg-[#ebf5fb] overflow-hidden">
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-center gap-8 md:gap-20">
         
         {/* Logos wrapper for mobile: side-by-side, large, and highlighted */}
@@ -34,7 +34,7 @@ export default function TrustBadges() {
             />
           </div>
           <div className="border-l-2 border-gray-200 pl-4 md:pl-6 text-left">
-            <p className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#2c3e35] leading-none mb-1">5.0</p>
+            <p className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#1e293b] leading-none mb-1">5.0</p>
             <p className="text-xs sm:text-sm md:text-base text-gray-500 font-medium leading-none">42 Reviews</p>
           </div>
         </div>
